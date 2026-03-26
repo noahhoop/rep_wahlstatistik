@@ -11,6 +11,7 @@
 !*.Rproj
 !*.gitkeep
 !varlist.xlsx
+!btw_rws_zwst-1953.csv
 
 # ----------------------------
 # Keep all folders (so folder structure is preserved)
