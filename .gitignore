@@ -1,0 +1,37 @@
+
+# ----------------------------
+# Ignore all files with extensions
+# ----------------------------
+*.*
+
+# But allow R scripts, R Markdown, Quarto, and R projects
+!*.R
+!*.Rmd
+!*.qmd
+!*.Rproj
+!*.gitkeep
+!varlist.xlsx
+
+# ----------------------------
+# Keep all folders (so folder structure is preserved)
+# ----------------------------
+!*/
+
+# ----------------------------
+# Keep scripts and test folders (and their contents)
+# ----------------------------
+!**/scripts/
+!**/scripts/**
+
+# ----------------------------
+# Ignore RStudio user files
+# ----------------------------
+.Rproj.user
+*.Rhistory
+*.Ruserdata
+
+# ----------------------------
+# Keep .gitignore itself
+# ----------------------------
+!.gitignore
+
